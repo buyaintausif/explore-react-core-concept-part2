@@ -4,6 +4,8 @@ import Counter from './counter';
 import Team from './team';
 import Users from './user';
 import Friends from './friends';
+import Recap from './reactCoreRecap';
+import Posts from './Posts';
 
 function App() {
 
@@ -38,6 +40,9 @@ function App() {
 
       <button onClick={()=>addToFive(4)}>jkds</button>
       {/* <button onClick={addToFive(4)}>jkds</button> */}
+
+      <Recap></Recap>
+
    
     </>
   )
